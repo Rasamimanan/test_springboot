@@ -15,4 +15,8 @@ public class HelloWordController {
     public String test() {
         return "Ity ny test page!";
     }
+    @GetMapping("/style")
+    public String style() {
+        return "style vaovao";
+    }
 }
