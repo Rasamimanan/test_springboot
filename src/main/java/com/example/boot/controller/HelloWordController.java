@@ -13,7 +13,7 @@ public class HelloWordController {
 
     @GetMapping("/test")
     public String test() {
-        return "Ity ny test page!";
+        return "Ity ny teste page!";
     }
     @GetMapping("/style")
     public String style() {
